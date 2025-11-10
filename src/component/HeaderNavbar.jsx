@@ -7,8 +7,9 @@ const HeaderNavbar = () => {
         <NavLink to='/' className='font-semibold p-3 text-[16px]' ><li> Home </li></NavLink>
 
         {/* This is the Additional Routes */}
-        <NavLink to='/more-games' className='font-semibold p-3 text-[16px]'><li>Add Habit</li></NavLink>
-        <NavLink to='/more-games' className='font-semibold p-3 text-[16px]'><li>My Habits</li></NavLink>
+        <NavLink to='/add-habit' className='font-semibold p-3 text-[16px]'><li>Add Habit</li></NavLink>
+        <NavLink to='/my-habit' className='font-semibold p-3 text-[16px]'><li>My Habits</li></NavLink>
+        <NavLink to='/browse-public-habits' className='font-semibold p-3 text-[16px]'><li>Browse Public Habits</li></NavLink>
     </>
 
     return (
@@ -77,7 +78,7 @@ const HeaderNavbar = () => {
                 <div className='space-x-2'>
                     <NavLink to='/login' className=' border px-3 py-1 rounded-2xl font-semibold text-[16px]'>Login</NavLink>
 
-                    <NavLink to='/register' className="font-semibold border px-3 py-1 rounded-2xl  ">Register</NavLink>
+                    <NavLink to='/register' className="font-semibold border px-3 py-1 rounded-2xl  ">Signup</NavLink>
                 </div>
                 {/* } */}
             </div>
